@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+
+*{
+   padding: 0;
+   margin:0;
+   box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+
+ }
+
+body{
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 16px;
+	color: #333; 
+}
+
+img{
+	max-width: 100%;
+}
+
+.container{
+	width: calc(100% - 200px);
+	margin: auto;
+	
+}
+
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.col-1-1{
+    width: 100%;
+    padding: 50px;
+    flex: 0 0 auto;
+}
+.col-2-1{
+    width: 50%;
+    flex: 0 0 auto;
+   
+}
+
+.pad-left{
+	padding-left: 100px;
+}
+.pad-right{
+	padding-right: 100px;
+}
+
+header{
+
+padding: 30px 0;
+}
+
+.logo{
+    width: 15%;
+    flex: 0 0 auto;
+}
+.logo a img{}
+
+nav{
+    width: 85%;
+    flex: 0 0 auto;
+}
+nav ul{
+    /* display: flex; */
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    display: block;
+}
+nav ul li a:hover{
+    background: #333;
+    color: white;
+}
+
+
+/* banner section css */
+.banner-section{
+
+}
+.banner-section img{
+	width: 100%;
+	flex: 0 0 auto;
+}
+
+
+/* blog-section css */
+.blog-section{}
+article{}
+article span{
+    text-transform: uppercase;
+    color: #33333363;
+    font-weight: 800;
+    display: block;
+}
+article h1{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+article h1 a{
+    color: #333;
+    text-decoration: initial;
+}
+article p{
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.7;
+}
+article a{
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #33333363;
+    text-decoration: none;
+}
+article img{
+    width: 100%;
+}
+
+
+/* footer css */
+
+footer .col-2-1{
+    padding: 30px 100px;
+}
+footer{
+    background: #F0F0F0;
+}
+ul.footer-menu{
+    list-style: none;
+}
+ul.footer-menu li{}
+ul.footer-menu li a{
+    DISPLAY: BLOCK;
+    color: black;
+    text-decoration: none;
+    /* padding: 5px 20px; */
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    padding-right: 30px;
+}
+
+ul.social-link{
+    list-style: none;
+    justify-content: flex-end;
+}
+ul.social-link li{
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    padding: 5px;
+}
+ul.social-link li span{}
+ul.social-link li a{
+    padding-left: 20px;
+}
+ul.social-link li a:hover{}
